@@ -16,7 +16,7 @@ s = speedtest.Speedtest()
 s.get_servers(server)
 s.get_best_server()
 
-for i in range(0,3):                                            #Averaging to get optimum bandwidth
+for i in range(0,3):                                            
     download_speed += s.download()
 
 download_speed = download_speed/3
