@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ```
 crontab -e
-Append this line "*/10 * * * * /usr/bin/python /path/to/file/get_data.py"
+Append this line "*/60 * * * * /usr/bin/python /path/to/file/get_data.py"
 ```
 
 
