@@ -15,15 +15,15 @@ speedtest-cli
 
 ### Installing pre-requisites 
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ### Setting cronjob
 
-'''
+```
 crontab -e
-*/10 * * * * /usr/bin/python /path/to/file/get_data.py
-'''
+Append this line "*/10 * * * * /usr/bin/python /path/to/file/get_data.py"
+```
 
 
